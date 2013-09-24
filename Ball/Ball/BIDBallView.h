@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <CoreMotion/CoreMotion.h>
 @interface BIDBallView : UIView
-
+@property (strong, nonatomic) UIImage *image;
+@property CGPoint currentPoint;
+@property CGPoint previousPoint;
+@property (assign, nonatomic) CMAcceleration acceleration;
+@property CGFloat ballXVelocity;
+@property CGFloat ballYVelocity;
+- (void)update;
 @end
