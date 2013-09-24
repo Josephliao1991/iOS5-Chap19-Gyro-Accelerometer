@@ -17,6 +17,7 @@
 		00987B9817F17949001665D2 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00987B9617F17949001665D2 /* BIDViewController.xib */; };
 		00987B9F17F17A62001665D2 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00987B9E17F17A62001665D2 /* ball.png */; };
 		00987BA217F17AD8001665D2 /* BIDBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987BA117F17AD8001665D2 /* BIDBallView.m */; };
+		00987BA417F17DB1001665D2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987BA317F17DB1001665D2 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		00987B9E17F17A62001665D2 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		00987BA017F17AD8001665D2 /* BIDBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDBallView.h; sourceTree = "<group>"; };
 		00987BA117F17AD8001665D2 /* BIDBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDBallView.m; sourceTree = "<group>"; };
+		00987BA317F17DB1001665D2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00987BA417F17DB1001665D2 /* CoreMotion.framework in Frameworks */,
 				00987B8217F17949001665D2 /* UIKit.framework in Frameworks */,
 				00987B8417F17949001665D2 /* Foundation.framework in Frameworks */,
 				00987B8617F17949001665D2 /* CoreGraphics.framework in Frameworks */,
@@ -72,6 +75,7 @@
 		00987B8017F17949001665D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00987BA317F17DB1001665D2 /* CoreMotion.framework */,
 				00987B8117F17949001665D2 /* UIKit.framework */,
 				00987B8317F17949001665D2 /* Foundation.framework */,
 				00987B8517F17949001665D2 /* CoreGraphics.framework */,
