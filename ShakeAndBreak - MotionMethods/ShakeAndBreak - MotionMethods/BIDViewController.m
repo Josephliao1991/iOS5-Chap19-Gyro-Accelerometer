@@ -7,6 +7,7 @@
 //
 
 #import "BIDViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface BIDViewController ()
 @property (assign, nonatomic) BOOL brokenScreenShowing;
@@ -16,6 +17,11 @@
 @end
 
 @implementation BIDViewController
+@synthesize brokenScreenShowing;
+@synthesize fixed;
+@synthesize broken;
+@synthesize soundID;
+@synthesize imageView;
 
 - (void)viewDidLoad
 {
@@ -24,7 +30,7 @@
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"glass"
                                          withExtension:@"wav"];
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)url,
-                                     &_soundID);
+                                     &soundID);
     self.fixed = [UIImage imageNamed:@"home.png"];
     self.broken = [UIImage imageNamed:@"homebroken.png"];
     

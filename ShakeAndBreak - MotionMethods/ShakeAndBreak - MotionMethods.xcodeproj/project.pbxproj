@@ -15,6 +15,12 @@
 		00987B5A17F17019001665D2 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B5917F17019001665D2 /* BIDAppDelegate.m */; };
 		00987B5D17F17019001665D2 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B5C17F17019001665D2 /* BIDViewController.m */; };
 		00987B6017F17019001665D2 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00987B5E17F17019001665D2 /* BIDViewController.xib */; };
+		00987B6717F170B0001665D2 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 00987B6617F170B0001665D2 /* home.png */; };
+		00987B6917F170B8001665D2 /* homebroken.png in Resources */ = {isa = PBXBuildFile; fileRef = 00987B6817F170B8001665D2 /* homebroken.png */; };
+		00987B6B17F170C2001665D2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00987B6A17F170C2001665D2 /* icon.png */; };
+		00987B6D17F170D5001665D2 /* glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00987B6C17F170D5001665D2 /* glass.wav */; };
+		00987B6F17F17189001665D2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987B6E17F17189001665D2 /* CoreMotion.framework */; };
+		00987B7117F1719B001665D2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987B7017F1719B001665D2 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,12 @@
 		00987B5B17F17019001665D2 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		00987B5C17F17019001665D2 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		00987B5F17F17019001665D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		00987B6617F170B0001665D2 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		00987B6817F170B8001665D2 /* homebroken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homebroken.png; sourceTree = "<group>"; };
+		00987B6A17F170C2001665D2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		00987B6C17F170D5001665D2 /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glass.wav; sourceTree = "<group>"; };
+		00987B6E17F17189001665D2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		00987B7017F1719B001665D2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00987B7117F1719B001665D2 /* AudioToolbox.framework in Frameworks */,
+				00987B6F17F17189001665D2 /* CoreMotion.framework in Frameworks */,
 				00987B4A17F17019001665D2 /* UIKit.framework in Frameworks */,
 				00987B4C17F17019001665D2 /* Foundation.framework in Frameworks */,
 				00987B4E17F17019001665D2 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +81,8 @@
 		00987B4817F17019001665D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00987B7017F1719B001665D2 /* AudioToolbox.framework */,
+				00987B6E17F17189001665D2 /* CoreMotion.framework */,
 				00987B4917F17019001665D2 /* UIKit.framework */,
 				00987B4B17F17019001665D2 /* Foundation.framework */,
 				00987B4D17F17019001665D2 /* CoreGraphics.framework */,
@@ -90,10 +106,14 @@
 		00987B5017F17019001665D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00987B6617F170B0001665D2 /* home.png */,
 				00987B5117F17019001665D2 /* ShakeAndBreak - MotionMethods-Info.plist */,
 				00987B5217F17019001665D2 /* InfoPlist.strings */,
 				00987B5517F17019001665D2 /* main.m */,
 				00987B5717F17019001665D2 /* ShakeAndBreak - MotionMethods-Prefix.pch */,
+				00987B6817F170B8001665D2 /* homebroken.png */,
+				00987B6A17F170C2001665D2 /* icon.png */,
+				00987B6C17F170D5001665D2 /* glass.wav */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +170,10 @@
 			files = (
 				00987B5417F17019001665D2 /* InfoPlist.strings in Resources */,
 				00987B6017F17019001665D2 /* BIDViewController.xib in Resources */,
+				00987B6717F170B0001665D2 /* home.png in Resources */,
+				00987B6917F170B8001665D2 /* homebroken.png in Resources */,
+				00987B6B17F170C2001665D2 /* icon.png in Resources */,
+				00987B6D17F170D5001665D2 /* glass.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
