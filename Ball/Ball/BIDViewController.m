@@ -12,6 +12,8 @@
 @implementation BIDViewController
 @synthesize motionManager;
 
+#define kUpdateInterval (1.0f / 60.0f)
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
