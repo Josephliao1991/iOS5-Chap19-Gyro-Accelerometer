@@ -15,6 +15,8 @@
 		00987B9217F17949001665D2 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B9117F17949001665D2 /* BIDAppDelegate.m */; };
 		00987B9517F17949001665D2 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B9417F17949001665D2 /* BIDViewController.m */; };
 		00987B9817F17949001665D2 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00987B9617F17949001665D2 /* BIDViewController.xib */; };
+		00987B9F17F17A62001665D2 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00987B9E17F17A62001665D2 /* ball.png */; };
+		00987BA217F17AD8001665D2 /* BIDBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987BA117F17AD8001665D2 /* BIDBallView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		00987B9317F17949001665D2 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		00987B9417F17949001665D2 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		00987B9717F17949001665D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		00987B9E17F17A62001665D2 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		00987BA017F17AD8001665D2 /* BIDBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDBallView.h; sourceTree = "<group>"; };
+		00987BA117F17AD8001665D2 /* BIDBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDBallView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,8 @@
 				00987B9417F17949001665D2 /* BIDViewController.m */,
 				00987B9617F17949001665D2 /* BIDViewController.xib */,
 				00987B8817F17949001665D2 /* Supporting Files */,
+				00987BA017F17AD8001665D2 /* BIDBallView.h */,
+				00987BA117F17AD8001665D2 /* BIDBallView.m */,
 			);
 			path = Ball;
 			sourceTree = "<group>";
@@ -94,6 +101,7 @@
 				00987B8A17F17949001665D2 /* InfoPlist.strings */,
 				00987B8D17F17949001665D2 /* main.m */,
 				00987B8F17F17949001665D2 /* Ball-Prefix.pch */,
+				00987B9E17F17A62001665D2 /* ball.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +158,7 @@
 			files = (
 				00987B8C17F17949001665D2 /* InfoPlist.strings in Resources */,
 				00987B9817F17949001665D2 /* BIDViewController.xib in Resources */,
+				00987B9F17F17A62001665D2 /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +172,7 @@
 				00987B8E17F17949001665D2 /* main.m in Sources */,
 				00987B9217F17949001665D2 /* BIDAppDelegate.m in Sources */,
 				00987B9517F17949001665D2 /* BIDViewController.m in Sources */,
+				00987BA217F17AD8001665D2 /* BIDBallView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

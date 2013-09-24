@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 
 @interface BIDViewController : UIViewController
-
+@property (strong, nonatomic) CMMotionManager *motionManager;
 @end

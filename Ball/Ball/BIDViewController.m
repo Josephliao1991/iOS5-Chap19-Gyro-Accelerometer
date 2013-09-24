@@ -7,8 +7,10 @@
 //
 
 #import "BIDViewController.h"
+#import "BIDBallView.h"
 
 @implementation BIDViewController
+@synthesize motionManager;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,6 +24,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.motionManager = [[CMMotionManager alloc] init];
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    motionManager.accelerometerUpdateInterval = kUpdateInterval;
+    [motionManager startAccelerometerUpdatesToQueue:queue withHandler:
+     ^(CMAccelerometerData *accelerometerData, NSError *error) {
+         [(BIDBallView *)self.view setAcceleration:accelerometerData.acceleration];
+         [self.view performSelectorOnMainThread:@selector(update)
+                                     withObject:nil waitUntilDone:NO];
+     }];
 }
 
 - (void)viewDidUnload
