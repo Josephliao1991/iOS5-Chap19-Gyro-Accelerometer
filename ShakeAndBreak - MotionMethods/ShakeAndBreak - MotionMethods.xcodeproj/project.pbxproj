@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00987B4A17F17019001665D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987B4917F17019001665D2 /* UIKit.framework */; };
+		00987B4C17F17019001665D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987B4B17F17019001665D2 /* Foundation.framework */; };
+		00987B4E17F17019001665D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987B4D17F17019001665D2 /* CoreGraphics.framework */; };
+		00987B5417F17019001665D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00987B5217F17019001665D2 /* InfoPlist.strings */; };
+		00987B5617F17019001665D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B5517F17019001665D2 /* main.m */; };
+		00987B5A17F17019001665D2 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B5917F17019001665D2 /* BIDAppDelegate.m */; };
+		00987B5D17F17019001665D2 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B5C17F17019001665D2 /* BIDViewController.m */; };
+		00987B6017F17019001665D2 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00987B5E17F17019001665D2 /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00987B4517F17019001665D2 /* ShakeAndBreak - MotionMethods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShakeAndBreak - MotionMethods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00987B4917F17019001665D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00987B4B17F17019001665D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00987B4D17F17019001665D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00987B5117F17019001665D2 /* ShakeAndBreak - MotionMethods-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShakeAndBreak - MotionMethods-Info.plist"; sourceTree = "<group>"; };
+		00987B5317F17019001665D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00987B5517F17019001665D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00987B5717F17019001665D2 /* ShakeAndBreak - MotionMethods-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShakeAndBreak - MotionMethods-Prefix.pch"; sourceTree = "<group>"; };
+		00987B5817F17019001665D2 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		00987B5917F17019001665D2 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		00987B5B17F17019001665D2 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		00987B5C17F17019001665D2 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		00987B5F17F17019001665D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00987B4217F17019001665D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00987B4A17F17019001665D2 /* UIKit.framework in Frameworks */,
+				00987B4C17F17019001665D2 /* Foundation.framework in Frameworks */,
+				00987B4E17F17019001665D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00987B3A17F17018001665D2 = {
+			isa = PBXGroup;
+			children = (
+				00987B4F17F17019001665D2 /* ShakeAndBreak - MotionMethods */,
+				00987B4817F17019001665D2 /* Frameworks */,
+				00987B4617F17019001665D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00987B4617F17019001665D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00987B4517F17019001665D2 /* ShakeAndBreak - MotionMethods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00987B4817F17019001665D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00987B4917F17019001665D2 /* UIKit.framework */,
+				00987B4B17F17019001665D2 /* Foundation.framework */,
+				00987B4D17F17019001665D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00987B4F17F17019001665D2 /* ShakeAndBreak - MotionMethods */ = {
+			isa = PBXGroup;
+			children = (
+				00987B5817F17019001665D2 /* BIDAppDelegate.h */,
+				00987B5917F17019001665D2 /* BIDAppDelegate.m */,
+				00987B5B17F17019001665D2 /* BIDViewController.h */,
+				00987B5C17F17019001665D2 /* BIDViewController.m */,
+				00987B5E17F17019001665D2 /* BIDViewController.xib */,
+				00987B5017F17019001665D2 /* Supporting Files */,
+			);
+			path = "ShakeAndBreak - MotionMethods";
+			sourceTree = "<group>";
+		};
+		00987B5017F17019001665D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00987B5117F17019001665D2 /* ShakeAndBreak - MotionMethods-Info.plist */,
+				00987B5217F17019001665D2 /* InfoPlist.strings */,
+				00987B5517F17019001665D2 /* main.m */,
+				00987B5717F17019001665D2 /* ShakeAndBreak - MotionMethods-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00987B4417F17019001665D2 /* ShakeAndBreak - MotionMethods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00987B6317F17019001665D2 /* Build configuration list for PBXNativeTarget "ShakeAndBreak - MotionMethods" */;
+			buildPhases = (
+				00987B4117F17019001665D2 /* Sources */,
+				00987B4217F17019001665D2 /* Frameworks */,
+				00987B4317F17019001665D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShakeAndBreak - MotionMethods";
+			productName = "ShakeAndBreak - MotionMethods";
+			productReference = 00987B4517F17019001665D2 /* ShakeAndBreak - MotionMethods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00987B3C17F17018001665D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 00987B3F17F17018001665D2 /* Build configuration list for PBXProject "ShakeAndBreak - MotionMethods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00987B3A17F17018001665D2;
+			productRefGroup = 00987B4617F17019001665D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00987B4417F17019001665D2 /* ShakeAndBreak - MotionMethods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00987B4317F17019001665D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00987B5417F17019001665D2 /* InfoPlist.strings in Resources */,
+				00987B6017F17019001665D2 /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00987B4117F17019001665D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00987B5617F17019001665D2 /* main.m in Sources */,
+				00987B5A17F17019001665D2 /* BIDAppDelegate.m in Sources */,
+				00987B5D17F17019001665D2 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00987B5217F17019001665D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00987B5317F17019001665D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00987B5E17F17019001665D2 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00987B5F17F17019001665D2 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00987B6117F17019001665D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00987B6217F17019001665D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00987B6417F17019001665D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAndBreak - MotionMethods/ShakeAndBreak - MotionMethods-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAndBreak - MotionMethods/ShakeAndBreak - MotionMethods-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00987B6517F17019001665D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAndBreak - MotionMethods/ShakeAndBreak - MotionMethods-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAndBreak - MotionMethods/ShakeAndBreak - MotionMethods-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00987B3F17F17018001665D2 /* Build configuration list for PBXProject "ShakeAndBreak - MotionMethods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00987B6117F17019001665D2 /* Debug */,
+				00987B6217F17019001665D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00987B6317F17019001665D2 /* Build configuration list for PBXNativeTarget "ShakeAndBreak - MotionMethods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00987B6417F17019001665D2 /* Debug */,
+				00987B6517F17019001665D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00987B3C17F17018001665D2 /* Project object */;
+}
