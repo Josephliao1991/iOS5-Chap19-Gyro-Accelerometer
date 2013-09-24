@@ -14,5 +14,6 @@
 @property (strong, nonatomic) CMMotionManager *motionManager;
 @property (weak, nonatomic) IBOutlet UILabel *accelerometerLabel;
 @property (weak, nonatomic) IBOutlet UILabel *gyroscopeLabel;
+@property (retain) NSTimer *updateTimer;
 
 @end
