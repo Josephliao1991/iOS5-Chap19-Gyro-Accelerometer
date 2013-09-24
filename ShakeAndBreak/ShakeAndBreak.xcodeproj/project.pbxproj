@@ -15,6 +15,10 @@
 		00987B2217F1678F001665D2 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B2117F1678F001665D2 /* BIDAppDelegate.m */; };
 		00987B2517F1678F001665D2 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B2417F1678F001665D2 /* BIDViewController.m */; };
 		00987B2817F1678F001665D2 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00987B2617F1678F001665D2 /* BIDViewController.xib */; };
+		00987B2F17F169A8001665D2 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 00987B2E17F169A8001665D2 /* home.png */; };
+		00987B3117F169AF001665D2 /* homebroken.png in Resources */ = {isa = PBXBuildFile; fileRef = 00987B3017F169AF001665D2 /* homebroken.png */; };
+		00987B3317F169BB001665D2 /* glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00987B3217F169BB001665D2 /* glass.wav */; };
+		00987B3517F169F1001665D2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00987B3417F169F1001665D2 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		00987B2317F1678F001665D2 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		00987B2417F1678F001665D2 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		00987B2717F1678F001665D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		00987B2E17F169A8001665D2 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		00987B3017F169AF001665D2 /* homebroken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homebroken.png; sourceTree = "<group>"; };
+		00987B3217F169BB001665D2 /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glass.wav; sourceTree = "<group>"; };
+		00987B3417F169F1001665D2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +98,13 @@
 		00987B1817F1678F001665D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00987B2E17F169A8001665D2 /* home.png */,
+				00987B3417F169F1001665D2 /* icon.png */,
+				00987B3217F169BB001665D2 /* glass.wav */,
 				00987B1917F1678F001665D2 /* ShakeAndBreak-Info.plist */,
 				00987B1A17F1678F001665D2 /* InfoPlist.strings */,
 				00987B1D17F1678F001665D2 /* main.m */,
+				00987B3017F169AF001665D2 /* homebroken.png */,
 				00987B1F17F1678F001665D2 /* ShakeAndBreak-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -150,6 +162,10 @@
 			files = (
 				00987B1C17F1678F001665D2 /* InfoPlist.strings in Resources */,
 				00987B2817F1678F001665D2 /* BIDViewController.xib in Resources */,
+				00987B2F17F169A8001665D2 /* home.png in Resources */,
+				00987B3117F169AF001665D2 /* homebroken.png in Resources */,
+				00987B3317F169BB001665D2 /* glass.wav in Resources */,
+				00987B3517F169F1001665D2 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
