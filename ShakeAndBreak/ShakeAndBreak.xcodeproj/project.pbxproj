@@ -19,6 +19,8 @@
 		00987B3117F169AF001665D2 /* homebroken.png in Resources */ = {isa = PBXBuildFile; fileRef = 00987B3017F169AF001665D2 /* homebroken.png */; };
 		00987B3317F169BB001665D2 /* glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00987B3217F169BB001665D2 /* glass.wav */; };
 		00987B3517F169F1001665D2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00987B3417F169F1001665D2 /* icon.png */; };
+		00987B3717F16CA8001665D2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987B3617F16CA8001665D2 /* CoreMotion.framework */; };
+		00987B3917F16CB4001665D2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987B3817F16CB4001665D2 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		00987B3017F169AF001665D2 /* homebroken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homebroken.png; sourceTree = "<group>"; };
 		00987B3217F169BB001665D2 /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glass.wav; sourceTree = "<group>"; };
 		00987B3417F169F1001665D2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		00987B3617F16CA8001665D2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		00987B3817F16CB4001665D2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00987B3917F16CB4001665D2 /* AudioToolbox.framework in Frameworks */,
+				00987B3717F16CA8001665D2 /* CoreMotion.framework in Frameworks */,
 				00987B1217F1678F001665D2 /* UIKit.framework in Frameworks */,
 				00987B1417F1678F001665D2 /* Foundation.framework in Frameworks */,
 				00987B1617F1678F001665D2 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +81,8 @@
 		00987B1017F1678F001665D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00987B3817F16CB4001665D2 /* AudioToolbox.framework */,
+				00987B3617F16CA8001665D2 /* CoreMotion.framework */,
 				00987B1117F1678F001665D2 /* UIKit.framework */,
 				00987B1317F1678F001665D2 /* Foundation.framework */,
 				00987B1517F1678F001665D2 /* CoreGraphics.framework */,
