@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00987B1217F1678F001665D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987B1117F1678F001665D2 /* UIKit.framework */; };
+		00987B1417F1678F001665D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987B1317F1678F001665D2 /* Foundation.framework */; };
+		00987B1617F1678F001665D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00987B1517F1678F001665D2 /* CoreGraphics.framework */; };
+		00987B1C17F1678F001665D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00987B1A17F1678F001665D2 /* InfoPlist.strings */; };
+		00987B1E17F1678F001665D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B1D17F1678F001665D2 /* main.m */; };
+		00987B2217F1678F001665D2 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B2117F1678F001665D2 /* BIDAppDelegate.m */; };
+		00987B2517F1678F001665D2 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00987B2417F1678F001665D2 /* BIDViewController.m */; };
+		00987B2817F1678F001665D2 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00987B2617F1678F001665D2 /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00987B0D17F1678F001665D2 /* ShakeAndBreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeAndBreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00987B1117F1678F001665D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00987B1317F1678F001665D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00987B1517F1678F001665D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00987B1917F1678F001665D2 /* ShakeAndBreak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShakeAndBreak-Info.plist"; sourceTree = "<group>"; };
+		00987B1B17F1678F001665D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00987B1D17F1678F001665D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00987B1F17F1678F001665D2 /* ShakeAndBreak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShakeAndBreak-Prefix.pch"; sourceTree = "<group>"; };
+		00987B2017F1678F001665D2 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		00987B2117F1678F001665D2 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		00987B2317F1678F001665D2 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		00987B2417F1678F001665D2 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		00987B2717F1678F001665D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00987B0A17F1678F001665D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00987B1217F1678F001665D2 /* UIKit.framework in Frameworks */,
+				00987B1417F1678F001665D2 /* Foundation.framework in Frameworks */,
+				00987B1617F1678F001665D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00987B0217F1678E001665D2 = {
+			isa = PBXGroup;
+			children = (
+				00987B1717F1678F001665D2 /* ShakeAndBreak */,
+				00987B1017F1678F001665D2 /* Frameworks */,
+				00987B0E17F1678F001665D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00987B0E17F1678F001665D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00987B0D17F1678F001665D2 /* ShakeAndBreak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00987B1017F1678F001665D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00987B1117F1678F001665D2 /* UIKit.framework */,
+				00987B1317F1678F001665D2 /* Foundation.framework */,
+				00987B1517F1678F001665D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00987B1717F1678F001665D2 /* ShakeAndBreak */ = {
+			isa = PBXGroup;
+			children = (
+				00987B2017F1678F001665D2 /* BIDAppDelegate.h */,
+				00987B2117F1678F001665D2 /* BIDAppDelegate.m */,
+				00987B2317F1678F001665D2 /* BIDViewController.h */,
+				00987B2417F1678F001665D2 /* BIDViewController.m */,
+				00987B2617F1678F001665D2 /* BIDViewController.xib */,
+				00987B1817F1678F001665D2 /* Supporting Files */,
+			);
+			path = ShakeAndBreak;
+			sourceTree = "<group>";
+		};
+		00987B1817F1678F001665D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00987B1917F1678F001665D2 /* ShakeAndBreak-Info.plist */,
+				00987B1A17F1678F001665D2 /* InfoPlist.strings */,
+				00987B1D17F1678F001665D2 /* main.m */,
+				00987B1F17F1678F001665D2 /* ShakeAndBreak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00987B0C17F1678F001665D2 /* ShakeAndBreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00987B2B17F1678F001665D2 /* Build configuration list for PBXNativeTarget "ShakeAndBreak" */;
+			buildPhases = (
+				00987B0917F1678F001665D2 /* Sources */,
+				00987B0A17F1678F001665D2 /* Frameworks */,
+				00987B0B17F1678F001665D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeAndBreak;
+			productName = ShakeAndBreak;
+			productReference = 00987B0D17F1678F001665D2 /* ShakeAndBreak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00987B0417F1678E001665D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 00987B0717F1678E001665D2 /* Build configuration list for PBXProject "ShakeAndBreak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00987B0217F1678E001665D2;
+			productRefGroup = 00987B0E17F1678F001665D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00987B0C17F1678F001665D2 /* ShakeAndBreak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00987B0B17F1678F001665D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00987B1C17F1678F001665D2 /* InfoPlist.strings in Resources */,
+				00987B2817F1678F001665D2 /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00987B0917F1678F001665D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00987B1E17F1678F001665D2 /* main.m in Sources */,
+				00987B2217F1678F001665D2 /* BIDAppDelegate.m in Sources */,
+				00987B2517F1678F001665D2 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00987B1A17F1678F001665D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00987B1B17F1678F001665D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00987B2617F1678F001665D2 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00987B2717F1678F001665D2 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00987B2917F1678F001665D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00987B2A17F1678F001665D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00987B2C17F1678F001665D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAndBreak/ShakeAndBreak-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAndBreak/ShakeAndBreak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00987B2D17F1678F001665D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAndBreak/ShakeAndBreak-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAndBreak/ShakeAndBreak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00987B0717F1678E001665D2 /* Build configuration list for PBXProject "ShakeAndBreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00987B2917F1678F001665D2 /* Debug */,
+				00987B2A17F1678F001665D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00987B2B17F1678F001665D2 /* Build configuration list for PBXNativeTarget "ShakeAndBreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00987B2C17F1678F001665D2 /* Debug */,
+				00987B2D17F1678F001665D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00987B0417F1678E001665D2 /* Project object */;
+}
