@@ -8,53 +8,46 @@
 
 #import "BIDViewController.h"
 
+@interface BIDViewController ()
+@property (assign, nonatomic) BOOL brokenScreenShowing;
+@property (assign, nonatomic) SystemSoundID soundID;
+@property (strong, nonatomic) UIImage *fixed;
+@property (strong, nonatomic) UIImage *broken;
+@end
+
 @implementation BIDViewController
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
-
-#pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"glass"
+                                         withExtension:@"wav"];
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)url,
+                                     &_soundID);
+    self.fixed = [UIImage imageNamed:@"home.png"];
+    self.broken = [UIImage imageNamed:@"homebroken.png"];
+    
+    self.imageView.image = self.fixed;
 }
 
-- (void)viewDidUnload
+- (BOOL)canBecomeFirstResponder
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    return YES;
 }
 
-- (void)viewWillAppear:(BOOL)animated
+- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event;
 {
-    [super viewWillAppear:animated];
+    if (!self.brokenScreenShowing) {
+        self.imageView.image = self.broken;
+        AudioServicesPlaySystemSound(self.soundID);
+        self.brokenScreenShowing = YES;
+    }
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    [super viewDidAppear:animated];
+    self.imageView.image = self.fixed;
+    self.brokenScreenShowing = NO;
 }
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
-
 @end
