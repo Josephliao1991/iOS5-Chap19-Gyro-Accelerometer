@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002CC27317F1568600896F25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002CC27217F1568600896F25 /* UIKit.framework */; };
+		002CC27517F1568600896F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002CC27417F1568600896F25 /* Foundation.framework */; };
+		002CC27717F1568600896F25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002CC27617F1568600896F25 /* CoreGraphics.framework */; };
+		002CC27D17F1568600896F25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002CC27B17F1568600896F25 /* InfoPlist.strings */; };
+		002CC27F17F1568600896F25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 002CC27E17F1568600896F25 /* main.m */; };
+		002CC28317F1568600896F25 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002CC28217F1568600896F25 /* BIDAppDelegate.m */; };
+		002CC28617F1568600896F25 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002CC28517F1568600896F25 /* BIDViewController.m */; };
+		002CC28917F1568600896F25 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002CC28717F1568600896F25 /* BIDViewController.xib */; };
+		002CC29017F156DC00896F25 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002CC28F17F156DC00896F25 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		002CC26E17F1568600896F25 /* MotionMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		002CC27217F1568600896F25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		002CC27417F1568600896F25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		002CC27617F1568600896F25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		002CC27A17F1568600896F25 /* MotionMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionMonitor-Info.plist"; sourceTree = "<group>"; };
+		002CC27C17F1568600896F25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		002CC27E17F1568600896F25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		002CC28017F1568600896F25 /* MotionMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MotionMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		002CC28117F1568600896F25 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		002CC28217F1568600896F25 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		002CC28417F1568600896F25 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		002CC28517F1568600896F25 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		002CC28817F1568600896F25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		002CC28F17F156DC00896F25 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002CC26B17F1568600896F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002CC29017F156DC00896F25 /* CoreMotion.framework in Frameworks */,
+				002CC27317F1568600896F25 /* UIKit.framework in Frameworks */,
+				002CC27517F1568600896F25 /* Foundation.framework in Frameworks */,
+				002CC27717F1568600896F25 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002CC26317F1568500896F25 = {
+			isa = PBXGroup;
+			children = (
+				002CC27817F1568600896F25 /* MotionMonitor */,
+				002CC27117F1568600896F25 /* Frameworks */,
+				002CC26F17F1568600896F25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002CC26F17F1568600896F25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002CC26E17F1568600896F25 /* MotionMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002CC27117F1568600896F25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002CC28F17F156DC00896F25 /* CoreMotion.framework */,
+				002CC27217F1568600896F25 /* UIKit.framework */,
+				002CC27417F1568600896F25 /* Foundation.framework */,
+				002CC27617F1568600896F25 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		002CC27817F1568600896F25 /* MotionMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				002CC28117F1568600896F25 /* BIDAppDelegate.h */,
+				002CC28217F1568600896F25 /* BIDAppDelegate.m */,
+				002CC28417F1568600896F25 /* BIDViewController.h */,
+				002CC28517F1568600896F25 /* BIDViewController.m */,
+				002CC28717F1568600896F25 /* BIDViewController.xib */,
+				002CC27917F1568600896F25 /* Supporting Files */,
+			);
+			path = MotionMonitor;
+			sourceTree = "<group>";
+		};
+		002CC27917F1568600896F25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002CC27A17F1568600896F25 /* MotionMonitor-Info.plist */,
+				002CC27B17F1568600896F25 /* InfoPlist.strings */,
+				002CC27E17F1568600896F25 /* main.m */,
+				002CC28017F1568600896F25 /* MotionMonitor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002CC26D17F1568600896F25 /* MotionMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002CC28C17F1568600896F25 /* Build configuration list for PBXNativeTarget "MotionMonitor" */;
+			buildPhases = (
+				002CC26A17F1568600896F25 /* Sources */,
+				002CC26B17F1568600896F25 /* Frameworks */,
+				002CC26C17F1568600896F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionMonitor;
+			productName = MotionMonitor;
+			productReference = 002CC26E17F1568600896F25 /* MotionMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002CC26517F1568500896F25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 002CC26817F1568500896F25 /* Build configuration list for PBXProject "MotionMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 002CC26317F1568500896F25;
+			productRefGroup = 002CC26F17F1568600896F25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002CC26D17F1568600896F25 /* MotionMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002CC26C17F1568600896F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002CC27D17F1568600896F25 /* InfoPlist.strings in Resources */,
+				002CC28917F1568600896F25 /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002CC26A17F1568600896F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002CC27F17F1568600896F25 /* main.m in Sources */,
+				002CC28317F1568600896F25 /* BIDAppDelegate.m in Sources */,
+				002CC28617F1568600896F25 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		002CC27B17F1568600896F25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002CC27C17F1568600896F25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		002CC28717F1568600896F25 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002CC28817F1568600896F25 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002CC28A17F1568600896F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		002CC28B17F1568600896F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002CC28D17F1568600896F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionMonitor/MotionMonitor-Prefix.pch";
+				INFOPLIST_FILE = "MotionMonitor/MotionMonitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		002CC28E17F1568600896F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionMonitor/MotionMonitor-Prefix.pch";
+				INFOPLIST_FILE = "MotionMonitor/MotionMonitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002CC26817F1568500896F25 /* Build configuration list for PBXProject "MotionMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002CC28A17F1568600896F25 /* Debug */,
+				002CC28B17F1568600896F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002CC28C17F1568600896F25 /* Build configuration list for PBXNativeTarget "MotionMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002CC28D17F1568600896F25 /* Debug */,
+				002CC28E17F1568600896F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002CC26517F1568500896F25 /* Project object */;
+}
